@@ -2,6 +2,4 @@
 姓名：石秉璿
 
 GitHub Repository URL:
-https://github.com/你的帳號/你的倉庫名稱
-
-注意：繳交前請將 GitHub 網址改成你自己的倉庫網址。
+https://github.com/AustinProgrammer27/PokerBetting
