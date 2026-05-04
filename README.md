@@ -61,8 +61,9 @@
 
 ## 執行畫面
 
-![五張撲克牌下注遊戲截圖](Screenshot 2026-05-04 224655.png)
-![五張撲克牌下注遊戲截圖](Screenshot 2026-05-04 224707.png)
+![五張撲克牌下注遊戲截圖 1](screenshots/screenshot1.png)
+
+![五張撲克牌下注遊戲截圖 2](screenshots/screenshot2.png)
 
 ## 繳交注意事項
 
