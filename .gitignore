@@ -1,0 +1,18 @@
+# Visual Studio / WinForms build outputs
+bin/
+obj/
+.vs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet / packages
+packages/
+*.nupkg
+
+# Logs / temp
+*.log
+*.tmp

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.props" Condition="Exists('$(MSBuildToolsPath)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1EBAA77D-E0C8-4074-AB35-BC84D67E2DD8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PokerBetting</RootNamespace>
+    <AssemblyName>PokerBetting</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="frmPoker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPoker.Designer.cs">
+      <DependentUpon>frmPoker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmPoker.resx">
+      <DependentUpon>frmPoker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\back.png" />
+    <Content Include="Resources\mistake.png" />
+    <Content Include="Resources\pic1.png" />
+    <Content Include="Resources\pic10.png" />
+    <Content Include="Resources\pic11.png" />
+    <Content Include="Resources\pic12.png" />
+    <Content Include="Resources\pic13.png" />
+    <Content Include="Resources\pic14.png" />
+    <Content Include="Resources\pic15.png" />
+    <Content Include="Resources\pic16.png" />
+    <Content Include="Resources\pic17.png" />
+    <Content Include="Resources\pic18.png" />
+    <Content Include="Resources\pic19.png" />
+    <Content Include="Resources\pic2.png" />
+    <Content Include="Resources\pic20.png" />
+    <Content Include="Resources\pic21.png" />
+    <Content Include="Resources\pic22.png" />
+    <Content Include="Resources\pic23.png" />
+    <Content Include="Resources\pic24.png" />
+    <Content Include="Resources\pic25.png" />
+    <Content Include="Resources\pic26.png" />
+    <Content Include="Resources\pic27.png" />
+    <Content Include="Resources\pic28.png" />
+    <Content Include="Resources\pic29.png" />
+    <Content Include="Resources\pic3.png" />
+    <Content Include="Resources\pic30.png" />
+    <Content Include="Resources\pic31.png" />
+    <Content Include="Resources\pic32.png" />
+    <Content Include="Resources\pic33.png" />
+    <Content Include="Resources\pic34.png" />
+    <Content Include="Resources\pic35.png" />
+    <Content Include="Resources\pic36.png" />
+    <Content Include="Resources\pic37.png" />
+    <Content Include="Resources\pic38.png" />
+    <Content Include="Resources\pic39.png" />
+    <Content Include="Resources\pic4.png" />
+    <Content Include="Resources\pic40.png" />
+    <Content Include="Resources\pic41.png" />
+    <Content Include="Resources\pic42.png" />
+    <Content Include="Resources\pic43.png" />
+    <Content Include="Resources\pic44.png" />
+    <Content Include="Resources\pic45.png" />
+    <Content Include="Resources\pic46.png" />
+    <Content Include="Resources\pic47.png" />
+    <Content Include="Resources\pic48.png" />
+    <Content Include="Resources\pic49.png" />
+    <Content Include="Resources\pic5.png" />
+    <Content Include="Resources\pic50.png" />
+    <Content Include="Resources\pic51.png" />
+    <Content Include="Resources\pic52.png" />
+    <Content Include="Resources\pic6.png" />
+    <Content Include="Resources\pic7.png" />
+    <Content Include="Resources\pic8.png" />
+    <Content Include="Resources\pic9.png" />
+    <Content Include="Resources\right.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
